@@ -1,0 +1,17 @@
+<div id="patient-details">
+
+<h2>{{patients.name}}</h2>
+<h2>{{patients.disease}}</h2>
+<h2>{{patients.contact}}</h2>
+
+</div>
+
+
+<form action="/patupdate" method="POST">
+    <input type="hidden" name="id" value="{{patients._id}}">
+    <input type="text" name="name" placeholder="{{patients.name}}" value="{{patients.name}}">
+    <input type="text" name="disease" placeholder="{{patients.disease}}" value="{{patients.disease}}">
+    <input type="number" name="contact" placeholder="{{patients.contact}}" value="{{patients.contact}}">
+    <button type="submit" class="pat-update-btn">Update</button>
+</form>
+

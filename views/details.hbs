@@ -1,0 +1,15 @@
+
+<div id="details">
+
+<h2>{{doctors.name}}</h2>
+<h2>{{doctors.specialist}}</h2>
+<h2>{{doctors.contact}}</h2>
+</div>
+
+<form action="/docupdate" method="POST">
+    <input type="hidden" name="id" value="{{doctors._id}}">
+    <input type="text" name="name" placeholder="{{doctors.name}}" value="{{doctors.name}}">
+    <input type="text" name="specialist" placeholder="{{doctors.specialist}}" value="{{doctors.specialist}}">
+    <input type="number" name="contact" placeholder="{{doctors.contact}}" value="{{doctors.contact}}">
+    <button type="submit" id="docupdate-btn">Update</button>
+</form>

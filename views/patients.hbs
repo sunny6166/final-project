@@ -1,0 +1,20 @@
+
+<div class="patients">
+<h1>patients</h1>
+<a href="/addPatient">Add New Patient</a>
+</div>
+
+<div class="patient">
+{{#each patients}}
+<hr>
+<h2>Patient Name :</h2>
+    {{> patients}}
+
+    <ul>
+        {{#each doctors}}
+        
+        <li>{{name}}</li>
+        {{/each}}
+    </ul>
+{{/each}}
+</div>

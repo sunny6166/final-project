@@ -1,0 +1,16 @@
+<div id="add-patient">
+
+<form action="/patients" method="POST">
+
+<label for="">Name:</label><input type="text" name="name" placeholder="name">
+<label for="">Disease</label><input type="text" name="disease" placeholder="disease">
+<label for="">Conatct</label><input type="number" name="contact" placeholder="contact">
+<label for="">Doctors</label><select name="doctors" multiple = {{doctors.length}}>
+       {{#each doctors}}
+       <option value="{{_id}}">{{name}}</option>
+       {{/each}}
+</select>
+<button type="submit" class="add-patient-btn">Add Patient</button>
+
+</form>
+</div>

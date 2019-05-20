@@ -1,0 +1,145 @@
+body {
+    background-image: url('../images/Tan_Cardi_Jul27.jpg');
+    margin: 0 auto;
+}
+
+#options {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 25%;
+    width: 380px;
+    text-align: center;
+    margin-top: 17%;
+}
+
+#nav-bar {
+    list-style-type: none;
+    padding: 1%;
+    background-color: #43516f;
+    /* margin-bottom: 0%; */
+    /* padding-bottom: 1%; */
+    font-size: x-large;
+}
+
+#homie {
+    background: #43a3e6;
+    border: 1px solid #43a3e6;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 33px;
+    padding: 110px 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s ease background;
+    width: 100%;
+    margin-right: 20%;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+}
+
+h1 ,h2 {
+    color: white;
+}
+
+ul, li {
+    color: white;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #43516f;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3a394d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #e7dffa}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /*Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #43516f;
+  }
+
+  #patients {
+      text-align: center;
+  }
+
+  .add-doctors-btn {
+    background: #43a3e6;
+    border: 1px solid #43a3e6;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s ease background;
+    width: 10%;
+  }
+  #add-doctors {
+      margin-top: 5%;
+  }
+
+  .doctors-head {
+    text-align: center;
+    font-size: xx-large;
+}
+  
+
+.patients {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.patient{
+    margin-left: 10px;
+}
+#patient-details{
+    margin-left: 10px;
+}
+
+.pat-name {
+    color: #43a3e6;
+}
+
+label {
+  color: white;
+}
